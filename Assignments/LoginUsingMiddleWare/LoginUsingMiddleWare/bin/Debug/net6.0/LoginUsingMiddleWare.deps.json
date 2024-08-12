@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LoginUsingMiddleWare/1.0.0": {
+        "runtime": {
+          "LoginUsingMiddleWare.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LoginUsingMiddleWare/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

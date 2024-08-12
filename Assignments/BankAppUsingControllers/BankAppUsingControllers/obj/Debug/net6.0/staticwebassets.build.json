@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "omPMSttD2FHyMmctZHt2czilS0BhnMd12kks9CLV6tc=",
+  "Source": "BankAppUsingControllers",
+  "BasePath": "_content/BankAppUsingControllers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BankAppUsingControllers\\wwwroot",
+      "Source": "BankAppUsingControllers",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\BankAppUsingControllers\\BankAppUsingControllers\\wwwroot\\",
+      "BasePath": "_content/BankAppUsingControllers",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\BankAppUsingControllers\\BankAppUsingControllers\\wwwroot\\Sample.pdf",
+      "SourceId": "BankAppUsingControllers",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\BankAppUsingControllers\\BankAppUsingControllers\\wwwroot\\",
+      "BasePath": "_content/BankAppUsingControllers",
+      "RelativePath": "Sample.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sample.pdf"
+    }
+  ]
+}

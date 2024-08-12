@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "TnGacxHqmNfkK7e8SY87enSy87KGX2rfkdtyCAh6hDU=",
+  "Source": "ControllersExample",
+  "BasePath": "_content/ControllersExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ControllersExample\\wwwroot",
+      "Source": "ControllersExample",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\ControllersExample\\ControllersExample\\wwwroot\\",
+      "BasePath": "_content/ControllersExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dimit\\Desktop\\AspCourse\\ControllersExample\\ControllersExample\\wwwroot\\Sample.pdf",
+      "SourceId": "ControllersExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\ControllersExample\\ControllersExample\\wwwroot\\",
+      "BasePath": "_content/ControllersExample",
+      "RelativePath": "Sample.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sample.pdf"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "FJDftsVB7QYKF/+yZ1v1l4YqsoHCq4+EV7wfcQar0ek=",
+  "Source": "StaticFilesExample",
+  "BasePath": "_content/StaticFilesExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StaticFilesExample\\wwwroot",
+      "Source": "StaticFilesExample",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\StaticFilesExample\\StaticFilesExample\\wwwroot\\",
+      "BasePath": "_content/StaticFilesExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dimit\\Desktop\\AspCourse\\StaticFilesExample\\StaticFilesExample\\wwwroot\\docs.pdf",
+      "SourceId": "StaticFilesExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\StaticFilesExample\\StaticFilesExample\\wwwroot\\",
+      "BasePath": "_content/StaticFilesExample",
+      "RelativePath": "docs.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\docs.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\dimit\\Desktop\\AspCourse\\StaticFilesExample\\StaticFilesExample\\wwwroot\\img1.jpg",
+      "SourceId": "StaticFilesExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\StaticFilesExample\\StaticFilesExample\\wwwroot\\",
+      "BasePath": "_content/StaticFilesExample",
+      "RelativePath": "img1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\dimit\\Desktop\\AspCourse\\StaticFilesExample\\StaticFilesExample\\wwwroot\\Sample.txt",
+      "SourceId": "StaticFilesExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\StaticFilesExample\\StaticFilesExample\\wwwroot\\",
+      "BasePath": "_content/StaticFilesExample",
+      "RelativePath": "Sample.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sample.txt"
+    }
+  ]
+}

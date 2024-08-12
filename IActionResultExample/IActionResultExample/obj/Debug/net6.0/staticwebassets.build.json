@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "jtb6RogbynZmmt2Sfq5rPRchHpKE2Twwbi8gR+nL3oQ=",
+  "Source": "IActionResultExample",
+  "BasePath": "_content/IActionResultExample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "IActionResultExample\\wwwroot",
+      "Source": "IActionResultExample",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\IActionResultExample\\IActionResultExample\\wwwroot\\",
+      "BasePath": "_content/IActionResultExample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dimit\\Desktop\\AspCourse\\IActionResultExample\\IActionResultExample\\wwwroot\\Sample.pdf",
+      "SourceId": "IActionResultExample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\IActionResultExample\\IActionResultExample\\wwwroot\\",
+      "BasePath": "_content/IActionResultExample",
+      "RelativePath": "Sample.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Sample.pdf"
+    }
+  ]
+}
