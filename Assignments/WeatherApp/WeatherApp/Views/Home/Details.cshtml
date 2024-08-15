@@ -1,0 +1,36 @@
+﻿@model CityWeather
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>@ViewBag.appTitle</title>
+	<meta charset="utf-8" />
+	<link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="container">
+		<div class="page-content">
+			<div class="margin-bottom">
+				<h1>Weather</h1>
+			</div>
+			<div class="margin-top-200 margin-left">	
+				<div class="box cursor-pointer w-30 margin-auto margin-top-200">
+					<div class="flex-borderless">
+						<div class="w-50">
+							<h2>@Model.CityName</h2>
+							<h4 class="text-grey">@Model.DateAndTime.ToString("dd MMM yyyy")</h4>
+							<h4 class="text-grey">@Model.DateAndTime.ToString("hh:mm tt")</h4>
+						</div>
+						<div class="w-50 border-left">
+							<h1 class="margin-left">@Model.TemperatureFahrenheit <span class="text-grey">°F</span></h1>
+						</div>
+					</div>
+				</div>
+				<div class="text-center">
+					<a href="~/">Back to Weather Home Page</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
