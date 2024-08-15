@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_MasterLayout.cshtml";
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div style="display:flex" class="full-size-height">
+        <div style="flex:1" class="grey-back">
+            Sidebar
+        </div>
+        <div style="flex:3" class="white-back">
+            @RenderBody()
+        </div>
+       
+    </div>
+</body>
+</html>
