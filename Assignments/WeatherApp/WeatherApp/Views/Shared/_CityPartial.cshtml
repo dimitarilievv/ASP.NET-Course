@@ -1,0 +1,28 @@
+﻿@model CityWeather
+@{
+	string GetCssColor(int TemperatureFahrenheit)
+	{
+		@switch (TemperatureFahrenheit)
+		{
+			case < 44:
+				return "blue-back";
+			case >= 44 and < 75:
+				return "green-back";
+			case >= 75:
+				return "orange-back";
+		};
+	}
+}
+
+<div class="box cursor-pointer w-30 @GetCssColor(Model.TemperatureFahrenheit)">
+	<div class="flex-borderless">
+		<div class="w-50">
+			<h2>@Model.CityName</h2>
+			<h4 class="text-dark-grey">@Model.DateAndTime.ToString("hh:mm tt")</h4>
+			<a href="/weather/@Model.CityUniqueCode">Details</a>
+		</div>
+		<div class="w-50 border-left">
+			<h1 class="margin-left">@Model.TemperatureFahrenheit <span class="text-grey">°F</span></h1>
+		</div>
+	</div>
+</div>

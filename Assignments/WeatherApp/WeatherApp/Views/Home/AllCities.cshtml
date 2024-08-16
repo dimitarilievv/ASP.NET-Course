@@ -1,50 +1,12 @@
 ﻿@model IEnumerable<CityWeather>
 @{
-	string GetCssColor(int TemperatureFahrenheit)
-	{
-		@switch (TemperatureFahrenheit)
-		{
-			case <44:
-				return "blue-back";
-			case >=44 and <75:
-				return "green-back";
-			case >=75:
-				return "orange-back";
-		};
-	}
+	ViewBag.Title = "Weather";
 }
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>@ViewBag.appTitle</title>
-		<meta charset="utf-8" />
-		<link href="~/StyleSheet.css" rel="stylesheet" />
-	</head>
-	<body>
-		<div class="container">
-			<div class="page-content">
-				<div class="margin-top-200 margin-left">
-					<div class="flex">
-						@foreach (CityWeather city in Model)
-						{
-							<div class="box cursor-pointer w-30 @GetCssColor(city.TemperatureFahrenheit)">
-								<div class="flex-borderless">
-									<div class="w-50">
-										<h2>@city.CityName</h2>
-										<h4 class="text-dark-grey">@city.DateAndTime.ToString("hh:mm tt")</h4>
-									<a href="/weather/@city.CityUniqueCode">Details</a>
-									</div>
-									<div class="w-50 border-left">
-									<h1 class="margin-left">@city.TemperatureFahrenheit <span class="text-grey">°F</span></h1>
-									</div>
-								</div>
-							</div>
-						}
-					</div>		
-				</div>
-			</div>
-		</div>
-		
-	
-	</body>
-</html>
+<div class="margin-top-200 margin-left">
+	<div class="flex">
+		@foreach (CityWeather city in Model)
+		{
+			<partial name="_CityPartial" model="city"></partial>
+		}
+	</div>
+</div>
