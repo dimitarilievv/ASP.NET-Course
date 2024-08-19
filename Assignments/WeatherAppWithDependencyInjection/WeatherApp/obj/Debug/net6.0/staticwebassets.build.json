@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "WoicRdUjQek6wHjKJ2l/eLeOsCGHnwox1W7+F/TV9lI=",
+  "Source": "WeatherApp",
+  "BasePath": "_content/WeatherApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WeatherApp\\wwwroot",
+      "Source": "WeatherApp",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\WeatherAppWithDependencyInjection\\WeatherApp\\wwwroot\\",
+      "BasePath": "_content/WeatherApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\WeatherAppWithDependencyInjection\\WeatherApp\\wwwroot\\StyleSheet.css",
+      "SourceId": "WeatherApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\WeatherAppWithDependencyInjection\\WeatherApp\\wwwroot\\",
+      "BasePath": "_content/WeatherApp",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
