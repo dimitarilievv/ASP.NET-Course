@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "pRsYfFYhMrEEcbfEMtMZzUVb4d9cWpEtmb3lra/beic=",
+  "Source": "StocksAppWithConfiguration",
+  "BasePath": "_content/StocksAppWithConfiguration",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "StocksAppWithConfiguration\\wwwroot",
+      "Source": "StocksAppWithConfiguration",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\StocksAppWithConfiguration\\StocksAppWithConfiguration\\wwwroot\\",
+      "BasePath": "_content/StocksAppWithConfiguration",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\StocksAppWithConfiguration\\StocksAppWithConfiguration\\wwwroot\\Scripts\\FinnhubScript.js",
+      "SourceId": "StocksAppWithConfiguration",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\StocksAppWithConfiguration\\StocksAppWithConfiguration\\wwwroot\\",
+      "BasePath": "_content/StocksAppWithConfiguration",
+      "RelativePath": "Scripts/FinnhubScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\FinnhubScript.js"
+    },
+    {
+      "Identity": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\StocksAppWithConfiguration\\StocksAppWithConfiguration\\wwwroot\\StyleSheet.css",
+      "SourceId": "StocksAppWithConfiguration",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dimit\\Desktop\\AspCourse\\Assignments\\StocksAppWithConfiguration\\StocksAppWithConfiguration\\wwwroot\\",
+      "BasePath": "_content/StocksAppWithConfiguration",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}

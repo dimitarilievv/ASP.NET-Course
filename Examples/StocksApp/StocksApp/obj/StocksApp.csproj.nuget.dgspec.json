@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dimit\\Desktop\\AspCourse\\StocksApp\\StocksApp\\StocksApp.csproj": {}
+    "C:\\Users\\dimit\\Desktop\\AspCourse\\Examples\\StocksApp\\StocksApp\\StocksApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dimit\\Desktop\\AspCourse\\StocksApp\\StocksApp\\StocksApp.csproj": {
+    "C:\\Users\\dimit\\Desktop\\AspCourse\\Examples\\StocksApp\\StocksApp\\StocksApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\AspCourse\\StocksApp\\StocksApp\\StocksApp.csproj",
+        "projectUniqueName": "C:\\Users\\dimit\\Desktop\\AspCourse\\Examples\\StocksApp\\StocksApp\\StocksApp.csproj",
         "projectName": "StocksApp",
-        "projectPath": "C:\\Users\\dimit\\Desktop\\AspCourse\\StocksApp\\StocksApp\\StocksApp.csproj",
+        "projectPath": "C:\\Users\\dimit\\Desktop\\AspCourse\\Examples\\StocksApp\\StocksApp\\StocksApp.csproj",
         "packagesPath": "C:\\Users\\dimit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dimit\\Desktop\\AspCourse\\StocksApp\\StocksApp\\obj\\",
+        "outputPath": "C:\\Users\\dimit\\Desktop\\AspCourse\\Examples\\StocksApp\\StocksApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dimit\\AppData\\Roaming\\NuGet\\NuGet.Config",

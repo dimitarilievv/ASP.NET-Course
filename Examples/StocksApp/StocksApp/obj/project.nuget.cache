@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G27G3AjmV8J/ZzYJVrylJDf26MirtqBAGBEpbp7TUL37sI0XFfCrxniyyqauRdySKiaeCvMWUJ/G9PSta2zViw==",
+  "dgSpecHash": "pBnXZm5dXoVOT5ZUyMZ4l9wxyexdPXJG/Mv25OqKPvNWoxw6Wwh8ZBxk/bDiaPVxTTEA4/F7Cd+q4qQyQxdzOw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dimit\\Desktop\\AspCourse\\StocksApp\\StocksApp\\StocksApp.csproj",
+  "projectFilePath": "C:\\Users\\dimit\\Desktop\\AspCourse\\Examples\\StocksApp\\StocksApp\\StocksApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
